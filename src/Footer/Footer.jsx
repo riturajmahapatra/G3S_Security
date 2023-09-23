@@ -102,8 +102,8 @@ const Footer = () => {
           </div>
           <div className="bg-gray-200 px-4 py-6 dark:bg-gray-800 md:flex md:items-center md:justify-between">
             <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
-              © 2023 <a href="https://jansevaa.com/">Dialkro</a>. All Rights
-              Reserved.
+              © 2023 <a href="https://jansevaa.com/">G3S Security</a>. All
+              Rights Reserved.
             </span>
             <div className="mt-4 flex space-x-5 sm:justify-center md:mt-0">
               <a

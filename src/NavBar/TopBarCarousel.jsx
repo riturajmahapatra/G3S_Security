@@ -4,23 +4,19 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 function TopBanner() {
   const images = [
     {
+      url: "TopBannerCarousel/sec1.webp",
+    },
+    {
+      url: "TopBannerCarousel/sec6.webp",
+    },
+    {
+      url: "TopBannerCarousel/sec3.jpeg",
+    },
+    {
       url: "TopBannerCarousel/security1.webp",
     },
-
-    {
-      url: "TopBannerCarousel/security2.webp",
-    },
-
     {
       url: "TopBannerCarousel/security3.webp",
-    },
-
-    {
-      url: "TopBannerCarousel/security4.webp",
-    },
-
-    {
-      url: "TopBannerCarousel/security5.webp",
     },
   ];
 

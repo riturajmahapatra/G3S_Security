@@ -1,5 +1,6 @@
 import React from "react";
 import CardsSection from "./CardsSection";
+import ImageGrid from "../Gallery/Gallery";
 
 const Hero = () => {
   return (
@@ -39,6 +40,9 @@ const Hero = () => {
         Emergency Response: We offer swift and effective crisis management.`}
         images={"/Cards/sec3.webp"}
       />
+      <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />{" "}
+      <h1 className="font-bold text-5xl uppercase m-10 text-center">Gallary</h1>
+      <ImageGrid />
       <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />{" "}
     </div>
   );
