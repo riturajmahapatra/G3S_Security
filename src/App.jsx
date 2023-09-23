@@ -1,3 +1,13 @@
+import Hero from "./Hero/Hero";
+import Navbar from "./NavBar/Nav";
+import TopBanner from "./NavBar/TopBarCarousel";
+
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <Navbar />
+      <TopBanner />
+      <Hero />
+    </>
+  );
 }
