@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className=" flex  items-center justify-between px-5 mx-auto  ">
         <a href="" className="flex items-center">
           <img src="logo2.png" className=" h-20 mr-3" alt="G3S Logo" />
-          <span className="self-center text-4xl   text-slate-500 ">
+          <span className="self-center text-4xl  font-semibold  text-slate-500 ">
             G3S Security
           </span>
         </a>

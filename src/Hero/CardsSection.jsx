@@ -4,16 +4,22 @@ const CardsSection = ({ heading, desc, customclass, images }) => {
   return (
     <div>
       <div
-        className={`flex items-center w-full space-x-10 p-10 ${customclass}`}
+        className={`flex items-center justify-center  space-x-10 gap-10  p-10 w-full   ${customclass}`}
       >
-        <div className="h-60 w-full  rounded-xl bg-gray-300 object-cover">
-          <img src={images} alt="g3s image" />
+        <div className="w-[30%]">
+          <img
+            src={images}
+            alt="g3s image"
+            className="rounded-xl w-[50vw] h-[30vh] object-cover"
+          />
         </div>
-        <div>
-          <h2 className="text-xl w-1/3 font-semibold text-gray-800">
-            {heading}
-          </h2>
-          <p className="text-gray-600">{desc}</p>
+        <div className="w-[60%] ">
+          <div>
+            <h2 className="text-4xl font-bold text-gray-800 bg-slate-300 p-3 uppercase inline-block mb-3">
+              {heading}
+            </h2>
+            <p className="text-gray-600 text-lg">{desc}</p>
+          </div>
         </div>
       </div>
     </div>
