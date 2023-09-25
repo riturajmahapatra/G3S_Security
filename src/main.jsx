@@ -4,6 +4,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Aboutus from "./NavBar/AboutUs/Aboutus.jsx";
 import Layout from "./layout.jsx";
+import Service from "./NavBar/Service/Service";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/aboutus",
     element: <Aboutus />,
+  },
+  {
+    path: "/service",
+    element: <Service />,
   },
 ]);
 
