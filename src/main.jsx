@@ -4,11 +4,12 @@ import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Aboutus from "./NavBar/AboutUs/Aboutus.jsx";
+import Layout from "./layout.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Layout />,
   },
   {
     path: "/aboutus",

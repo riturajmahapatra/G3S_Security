@@ -13,7 +13,12 @@ const Navbar = () => {
   return (
     <nav className="bg-white fixed w-full z-20 top-0 left-0 border">
       <div className="flex items-center justify-between px-5 mx-auto">
-        <a href="" className="flex items-center">
+        <a
+          onClick={() => {
+            navigate("/");
+          }}
+          className="flex items-center"
+        >
           <img src="logo2.png" className="h-20 mr-3" alt="G3S Logo" />
           <span className="self-center text-4xl max-lg:text-3xl font-semibold text-slate-500">
             G3S Security
@@ -35,7 +40,9 @@ const Navbar = () => {
           >
             <li>
               <a
-                href="#"
+                onClick={() => {
+                  navigate("/");
+                }}
                 className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
                 aria-current="page"
               >
