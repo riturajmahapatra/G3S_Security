@@ -17,7 +17,7 @@ const Navbar = () => {
           onClick={() => {
             navigate("/");
           }}
-          className="flex items-center"
+          className="flex items-center cursor-pointer"
         >
           <img src="logo2.png" className="h-20 mr-3" alt="G3S Logo" />
           <span className="self-center text-4xl max-lg:text-3xl font-semibold text-slate-500">

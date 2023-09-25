@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "./Footer/Footer";
 import Navbar from "./NavBar/Nav";
-import Sublayout from "./Sublayout";
+import Home from "./NavBar/Home/Home";
 const Layout = () => {
   return (
     <>
       <Navbar />
-      <Sublayout />
+      <Home />
       <Footer />
     </>
   );

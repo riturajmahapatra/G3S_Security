@@ -6,23 +6,25 @@ const Aboutus = () => {
   return (
     <div>
       <Navbar />
-      <div className="flex items-center  justify-center my-[20vh]">
+      <div className="flex items-center  justify-center my-[10vh]">
         <div className="container mx-auto px-8 py-8">
-          <h1 className="text-3xl font-bold text-center">
+          <h1 className="font-bold text-5xl text-center uppercase mb-10">
             About G3S Securities
           </h1>
-
           <p className="text-lg text-gray-600 mt-4">
-            G3S Securities is a prominent Indian-based security solutions
-            company specializing in a comprehensive range of security services
-            tailored to meet the diverse needs of our valued clients. With an
-            unwavering commitment to safeguarding businesses, institutions, and
-            communities, G3S Securities has emerged as a trusted and dependable
-            name in the security industry.
+            Founded in the year 2019 in New Delhi, we are a premier organization
+            specializing in providing human resource solutions to our clients
+            across India, especially in North India. With so many years of hard
+            work put into making a mark for us in this industry, we decided to
+            evolve this company and have carved out a specialized service, that
+            of "Contract Manpower Management Services.We offer temporary and
+            contract Manpower of all categories, i.e., Un-skilled, Semi-Skilled,
+            Skilled, and Highly-skilled categories.
           </p>
-
-          <h2 className="text-2xl font-semibold mt-8">Our Vision</h2>
-
+          <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />{" "}
+          <h2 className="text-4xl font-bold text-gray-800 bg-slate-300 p-3 uppercase inline-block  my-10">
+            Our Vision
+          </h2>
           <p className="text-lg text-gray-600 mt-4">
             At G3S Securities, our vision is clear and resolute: to become the
             foremost provider of security guard services in the industry. We
@@ -31,9 +33,10 @@ const Aboutus = () => {
             the driving force behind our quest to set new standards in security
             services.
           </p>
-
-          <h2 className="text-2xl font-semibold mt-8">Our Values</h2>
-
+          <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />{" "}
+          <h2 className="text-4xl font-bold text-gray-800 bg-slate-300 p-3 uppercase inline-block  my-10">
+            Our Values
+          </h2>
           <ul className="list-disc list-inside text-lg text-gray-600 mt-4 pl-4">
             <li>
               <strong>Integrity:</strong> We are unwavering in our commitment to
@@ -53,9 +56,10 @@ const Aboutus = () => {
               shared goals.
             </li>
           </ul>
-
-          <h2 className="text-2xl font-semibold mt-8">Our Services</h2>
-
+          <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />{" "}
+          <h2 className="text-4xl font-bold text-gray-800 bg-slate-300 p-3 uppercase inline-block  my-10">
+            Our Services
+          </h2>
           <ul className="list-disc list-inside text-lg text-gray-600 mt-4 pl-4">
             <li>
               <strong>Armed and Unarmed Guards:</strong> Our team of dedicated
@@ -74,15 +78,15 @@ const Aboutus = () => {
               promptly.
             </li>
           </ul>
-
-          <h2 className="text-2xl font-semibold mt-8">Our Methodology</h2>
-
+          <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />{" "}
+          <h2 className="text-4xl font-bold text-gray-800 bg-slate-300 p-3 uppercase inline-block  my-10">
+            Our Methodology
+          </h2>
           <p className="text-lg text-gray-600 mt-4">
             Based on work culture, requirements, and feedback from our clients,
             profiles are rigorously analyzed to identify workforces who can
             fulfill expectations and establish a successful match.
           </p>
-
           <ul className="list-disc list-inside text-lg text-gray-600 mt-4 pl-4">
             <li>
               Profiles of workforces are primarily screened and critically
