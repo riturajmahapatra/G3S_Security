@@ -5,6 +5,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Aboutus from "./NavBar/AboutUs/Aboutus.jsx";
 import Layout from "./layout.jsx";
 import Service from "./NavBar/Service/Service";
+import PrivacyPolicy from "./Footer/Privacy Policy/Privacy";
+import TermsAndConditions from "./Footer/Terms&Condition/T&C";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
   {
     path: "/service",
     element: <Service />,
+  },
+  {
+    path: "/privacypolicy",
+    element: <PrivacyPolicy />,
+  },
+  {
+    path: "/t&c",
+    element: <TermsAndConditions />,
   },
 ]);
 
