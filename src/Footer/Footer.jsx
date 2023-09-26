@@ -3,6 +3,14 @@ import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
   const navigate = useNavigate();
+  const scrollToTopAndNavigate = (path) => (e) => {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+    navigate(path);
+  };
   return (
     <>
       <footer className=" mt-20 bg-gray-100 dark:bg-gray-700">
@@ -15,9 +23,7 @@ const Footer = () => {
               <ul className="font-medium cursor-pointer text-gray-500 dark:text-gray-400">
                 <li className="mb-4">
                   <a
-                    onClick={() => {
-                      navigate("/aboutus");
-                    }}
+                    onClick={scrollToTopAndNavigate("/aboutus")}
                     className=" hover:underline"
                   >
                     About
@@ -25,9 +31,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    onClick={() => {
-                      navigate("/service");
-                    }}
+                    onClick={scrollToTopAndNavigate("/service")}
                     className="hover:underline"
                   >
                     Brand Center
@@ -52,9 +56,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    onClick={() => {
-                      navigate("/contactus");
-                    }}
+                    onClick={scrollToTopAndNavigate("/contactus")}
                     className="hover:underline cursor-pointer"
                   >
                     Contact Us
@@ -69,9 +71,7 @@ const Footer = () => {
               <ul className="font-medium cursor-pointer text-gray-500 dark:text-gray-400">
                 <li className="mb-4">
                   <a
-                    onClick={() => {
-                      navigate("/privacypolicy");
-                    }}
+                    onClick={scrollToTopAndNavigate("/privacypolicy")}
                     className="hover:underline"
                   >
                     Privacy Policy
@@ -79,9 +79,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    onClick={() => {
-                      navigate("/licensing");
-                    }}
+                    onClick={scrollToTopAndNavigate("/licensing")}
                     className="hover:underline"
                   >
                     Licensing
@@ -89,9 +87,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <a
-                    onClick={() => {
-                      navigate("/t&c");
-                    }}
+                    onClick={scrollToTopAndNavigate("/t&c")}
                     className="hover:underline"
                   >
                     Terms &amp; Conditions
@@ -128,12 +124,7 @@ const Footer = () => {
             </div>
           </div>
           <div className=" fixed bottom-20 right-20 max-lg:bottom-10 max-lg:right-5">
-            <a
-              onClick={() => {
-                navigate("/report");
-              }}
-              className=""
-            >
+            <a onClick={scrollToTopAndNavigate("/report")} className="">
               <a
                 href="#_"
                 className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-slate-500 rounded-md group"

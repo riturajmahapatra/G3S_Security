@@ -39,7 +39,7 @@ const Service = () => {
               <img
                 src="/Map/map.png"
                 alt="india map"
-                className="h-[50vh] w-[20vw] max-lg:w-[100vw]"
+                className="h-[50vh] w-full max-lg:w-[100%]"
               />
             </div>
           </div>
