@@ -16,20 +16,14 @@ const TermsAndConditions = () => {
           Terms and Conditions
         </h1>
         <p>{`Effective Date: ${date}`}</p>
-        <h2 className="text-xl font-semibold mt-4">Acceptance of Terms</h2>
+        <h2 className="text-xl font-semibold mt-4">1. Acceptance of Terms</h2>
         <p>
           By accessing or using the services provided by G3S Security, you agree
           to comply with and be bound by these Terms and Conditions. If you do
           not agree with these terms, please refrain from using our services.
         </p>
-        <h2 className="text-xl font-semibold mt-4">Services</h2>
-        <p>
-          G3S Security provides human resource solutions, including temporary
-          and contract manpower services. Our services are subject to
-          availability, and we reserve the right to modify or discontinue any
-          part of our services without notice.
-        </p>
-        <h2 className="text-xl font-semibold mt-4">User Responsibilities</h2>
+
+        <h2 className="text-xl font-semibold mt-4">2. User Responsibilities</h2>
         <ul className="list-disc list-inside text-lg text-gray-600 mt-4 pl-4">
           <li>
             You agree to provide accurate and complete information when using
@@ -44,7 +38,7 @@ const TermsAndConditions = () => {
             using our services.
           </li>
         </ul>
-        <h2 className="text-xl font-semibold mt-4">Payment and Fees</h2>
+        <h2 className="text-xl font-semibold mt-4">3. Payment and Fees</h2>
         <p>
           Payment terms for our services will be outlined in our specific
           agreements or contracts. Failure to make payments in accordance with
@@ -57,7 +51,7 @@ const TermsAndConditions = () => {
           not use, reproduce, or distribute our intellectual property without
           prior written consent.
         </p>
-        <h2 className="text-xl font-semibold mt-4">Privacy</h2>
+        <h2 className="text-xl font-semibold mt-4">4. Privacy</h2>
         <p>
           Our Privacy Policy governs the collection, use, and disclosure of your
           personal information. By using our services, you consent to our data
@@ -69,29 +63,36 @@ const TermsAndConditions = () => {
           consequential, or punitive damages arising from the use or inability
           to use our services.
         </p>
-        <h2 className="text-xl font-semibold mt-4">Indemnity</h2>
+        <h2 className="text-xl font-semibold mt-4">5. Indemnity</h2>
         <p>
           You agree to indemnify and hold G3S Security harmless from any claims,
           damages, or losses arising from your use of our services or violation
           of these terms.
         </p>
-        <h2 className="text-xl font-semibold mt-4">Termination</h2>
+        <h2 className="text-xl font-semibold mt-4">6. Termination</h2>
         <p>
           G3S Security reserves the right to terminate or suspend your access to
           our services at any time for violation of these terms.
         </p>
-        <h2 className="text-xl font-semibold mt-4">Governing Law</h2>
+        <h2 className="text-xl font-semibold mt-4">7. Governing Law</h2>
         <p>
           These Terms and Conditions shall be governed by and construed in
           accordance with the laws of India.
         </p>
-        <h2 className="text-xl font-semibold mt-4">Changes to Terms</h2>
+        <h2 className="text-xl font-semibold mt-4">8. Changes to Terms</h2>
         <p>
           G3S Security may update these Terms and Conditions from time to time.
           Any changes will be posted on our website, and the effective date will
           be indicated.
         </p>
-        <h2 className="text-xl font-semibold mt-4">Contact Information</h2>
+        <h2 className="text-xl font-semibold mt-4">9. Services</h2>
+        <p>
+          G3S Security provides human resource solutions, including temporary
+          and contract manpower services. Our services are subject to
+          availability, and we reserve the right to modify or discontinue any
+          part of our services without notice.
+        </p>
+        <h2 className="text-xl font-semibold mt-4">10. Contact Information</h2>
         <p>
           For questions or concerns about these Terms and Conditions, please
           contact us at 9911148480.
