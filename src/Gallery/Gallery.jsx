@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from "react";
 
-function Gallery() {
+function Gallery({ customclass }) {
   const images = [
     {
       url: "/Gallery/sec1.webp",
@@ -46,7 +46,9 @@ function Gallery() {
   return (
     <>
       <div className=" mt-10 flex items-center gap-5 ">
-        <div className=" group relative h-[50vh] w-full object-cover  ">
+        <div
+          className={`group relative h-[50vh] w-full object-cover ${customclass}`}
+        >
           <div
             style={{
               backgroundImage: `url(${images[currentIndex].url})`,

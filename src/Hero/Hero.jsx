@@ -1,7 +1,6 @@
 import React from "react";
 import CardsSection from "./CardsSection";
-import ImageGrid from "../Gallery/Gallery";
-
+import Gallery from "../Gallery/Gallery";
 const Hero = () => {
   return (
     <div className="container  m-auto">
@@ -41,8 +40,8 @@ const Hero = () => {
         images={"/Cards/sec3.webp"}
       />
       <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />{" "}
-      <h1 className="font-bold text-5xl uppercase m-10 text-center">Gallary</h1>
-      <ImageGrid />
+      <h1 className="font-bold text-5xl uppercase m-10 text-center">Gallery</h1>
+      <Gallery />
       <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />{" "}
     </div>
   );

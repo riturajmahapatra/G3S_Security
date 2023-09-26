@@ -51,7 +51,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a
+                    onClick={() => {
+                      navigate("/contactus");
+                    }}
+                    className="hover:underline cursor-pointer"
+                  >
                     Contact Us
                   </a>
                 </li>
@@ -73,7 +78,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
+                  <a
+                    onClick={() => {
+                      navigate("/licensing");
+                    }}
+                    className="hover:underline"
+                  >
                     Licensing
                   </a>
                 </li>
