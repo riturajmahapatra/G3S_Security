@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-8 px-4 py-6 md:grid-cols-4 lg:py-8">
             <div>
               <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
-                Company
+                Job Portal
               </h2>
               <ul className="font-medium cursor-pointer text-gray-500 dark:text-gray-400">
                 <li className="mb-4">
@@ -141,7 +141,7 @@ const Footer = () => {
           </div>
           <div className="bg-gray-200 px-4 py-6 dark:bg-gray-800 md:flex md:items-center md:justify-between">
             <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
-              © 2023 <a href="https://jansevaa.com/">G3S Security</a>. All
+              © 2023 <a href="https://jansevaa.com/">Job Portal</a>. All
               Rights Reserved.
             </span>
             <div className="mt-4 flex space-x-5 sm:justify-center md:mt-0">
