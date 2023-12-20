@@ -1,6 +1,7 @@
 import React, { useCallback, useState } from "react";
 import Hamburger from "hamburger-react";
 import { useNavigate } from "react-router-dom";
+import UserMenu from "../components/modals/UserMenu";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -20,15 +21,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white fixed w-full z-20 top-0 left-0 border">
-      <div className="flex items-center justify-between px-5 mx-auto">
+    <nav className=" bg-white h-24 fixed w-full z-20 top-0 left-0 border">
+      <div className=" flex items-center justify-between px-5 mx-auto h-full">
         <a
           onClick={scrollToTop("/")}
           className="flex items-center cursor-pointer"
         >
-          <img src="logo2.png" className="h-20 mr-3" alt="G3S Logo" />
+          <img src="logo.svg" className="h-20 mr-3" alt="G3S Logo" />
           <span className="self-center text-4xl max-lg:text-3xl font-semibold text-slate-500">
-            G3S Security
+            Job Portal
           </span>
         </a>
         <div className="md:order-2 hidden max-lg:block">
@@ -40,7 +41,7 @@ const Navbar = () => {
           }`}
         >
           <ul
-            className={`flex gap-5 text-lg font-bold text-black ${
+            className={`flex gap-8 text-lg font-bold text-black ${
               isOpen &&
               "flex-col gap-1 absolute right-10 border bg-white top-10 rounded-lg w-[50vw]"
             }`}
@@ -69,6 +70,10 @@ const Navbar = () => {
               >
                 Services
               </a>
+            </li>
+            <li className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+
+            <UserMenu />
             </li>
           </ul>
         </div>
